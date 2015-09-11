@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "$(date) building"
-if [[ $(python --version) =~ 2.6 ]]; then
+if [[ $(python --version 2>&1) =~ 2.6 ]]; then
     echo "$(date) build OK"
     exit 0
 fi
