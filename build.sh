@@ -1,7 +1,7 @@
 #!/bin/bash
 env
 echo "$(date) building"
-if [[ $TRAVIS_JOB_NUMBER =~ \.1$ ]]; then
+if [[ $(python --version) =~ 2.6 ]]; then
     echo "$(date) build OK"
     exit 0
 fi
