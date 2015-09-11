@@ -1,5 +1,4 @@
 #!/bin/bash
-env
 echo "$(date) building"
 if [[ $(python --version) =~ 2.6 ]]; then
     echo "$(date) build OK"
