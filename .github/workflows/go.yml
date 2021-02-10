@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: step1
-        run: bash github.sh
+        run: "bash -c 'pwd; ls -R'"
