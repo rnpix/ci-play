@@ -1,3 +1,3 @@
 #!/bin/bash
 set -eou pipefail
-env
+env | sort

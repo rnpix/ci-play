@@ -11,4 +11,4 @@ jobs:
       - id: step1
         uses: actions/checkout@v2
       - id: step2
-        run: "bash -c 'env | sort; pwd; ls -R'"
+        run: bash github.sh
