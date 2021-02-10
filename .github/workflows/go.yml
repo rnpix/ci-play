@@ -1,0 +1,12 @@
+name: go
+on:
+  push:
+    branches:
+      - master
+jobs:
+  job1:
+    name: job1
+    runs-on: ubuntu-latest
+    steps:
+      - id: step1
+        run: bash github.sh
