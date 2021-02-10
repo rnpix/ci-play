@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: step1
-        run: "bash -c 'pwd; ls -R'"
+        run: "bash -c 'cd ..; pwd; ls -R'"
