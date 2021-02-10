@@ -9,4 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - id: step1
-        run: "bash -c 'env; cd ..; pwd; ls -R'"
+        uses: actions/checkout@v2
+      - id: step2
+        runs: "bash -c 'env | sort; pwd; ls -R'"
