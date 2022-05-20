@@ -1,9 +1,0 @@
----
-services:
-  - docker
-language: bash
-branches:
-  only:
-    - master
-script:
-  - bash travis.sh
