@@ -9,5 +9,7 @@ jobs:
       options: --user root
     steps:
       - uses: actions/checkout@v3
+      - name: mal
+        run: echo something
       - name: s
         run: bash github.sh
