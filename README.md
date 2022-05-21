@@ -1,6 +1,6 @@
 ### ci-play
 
-ci-play
+ci_play
 
 Learn more at https://github.com/radiasoft/ci-play.
 

@@ -10,7 +10,7 @@ pksetup.setup(
     name='ci-play',
     author='RadiaSoft LLC',
     author_email='pip@radiasoft.net',
-    description='ci-play',
+    description='ci_play',
     install_requires=[
         'pykern',
     ],

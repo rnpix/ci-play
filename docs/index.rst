@@ -1,7 +1,7 @@
 Welcome to ci-play
 =================
 
-ci-play
+ci_play
 
 .. toctree::
    :maxdepth: 2
