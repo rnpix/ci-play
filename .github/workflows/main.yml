@@ -10,8 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: s
-        run: |
-          id
-          env
-          pwd
-          ls -al
+        run: bash github.sh
