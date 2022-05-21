@@ -4,6 +4,7 @@ on: pull_request
 jobs:
   j:
     runs-on: ubuntu-latest
+    container: radiasoft/python3:latest
     steps:
       - uses: actions/checkout@v3
       - name: s
