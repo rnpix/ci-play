@@ -1,8 +1,13 @@
-### Test for Continuous Integration
+### ci_play
 
-The `build.sh` conditionally sleeps and fails based on the `TRAVIS_JOB_NUMBER`.
-The first job build.sh passes, and the second build takes longer to run and fails.
+ci_play
 
-The problem is that the deploy happens anyway.
+Learn more at https://github.com/radiasoft/ci_play.
 
-Blank
+Documentation: http://ci_play.readthedocs.org/en/latest/
+
+#### License
+
+License: http://www.apache.org/licenses/LICENSE-2.0.html
+
+Copyright (c) 2022 RadiaSoft LLC.  All Rights Reserved.
