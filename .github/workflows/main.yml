@@ -4,12 +4,17 @@ on: pull_request
 jobs:
   j:
     runs-on: ubuntu-latest
-    container:
-      image: radiasoft/python3:alpha
-      options: --user root
+#    container:
+#      image: radiasoft/python3:alpha
+#      options: --user root
     steps:
       - uses: actions/checkout@v3
-      - name: mal
-        run: echo something
       - name: s
-        run: bash github.sh
+        run: |
+          id
+          env
+          pwd
+          ls -al
+
+
+# curl https://radia.run | bash -s ci
