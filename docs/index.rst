@@ -1,4 +1,4 @@
-Welcome to ci-play
+Welcome to ci_play
 =================
 
 ci_play
@@ -6,7 +6,7 @@ ci_play
 .. toctree::
    :maxdepth: 2
 
-   ci-play
+   ci_play
    modules
 
 Indices and tables

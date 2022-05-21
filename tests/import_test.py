@@ -9,4 +9,4 @@ from __future__ import absolute_import, division, print_function
 import pytest
 
 def test_1():
-    import ci-play
+    import ci_play

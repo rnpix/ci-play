@@ -1,10 +1,10 @@
-### ci-play
+### ci_play
 
 ci_play
 
-Learn more at https://github.com/radiasoft/ci-play.
+Learn more at https://github.com/radiasoft/ci_play.
 
-Documentation: http://ci-play.readthedocs.org/en/latest/
+Documentation: http://ci_play.readthedocs.org/en/latest/
 
 #### License
 

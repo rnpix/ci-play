@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-u"""ci-play setup script
+u"""ci_play setup script
 
 :copyright: Copyright (c) 2022 RadiaSoft LLC.  All Rights Reserved.
 :license: http://www.apache.org/licenses/LICENSE-2.0.html
@@ -7,7 +7,7 @@ u"""ci-play setup script
 from pykern import pksetup
 
 pksetup.setup(
-    name='ci-play',
+    name='ci_play',
     author='RadiaSoft LLC',
     author_email='pip@radiasoft.net',
     description='ci_play',
@@ -15,7 +15,7 @@ pksetup.setup(
         'pykern',
     ],
     license='http://www.apache.org/licenses/LICENSE-2.0.html',
-    url='https://github.com/radiasoft/ci-play',
+    url='https://github.com/radiasoft/ci_play',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Environment :: Console',

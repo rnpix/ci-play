@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-u"""Front-end command line for :mod:`ci-play`.
+u"""Front-end command line for :mod:`ci_play`.
 
 See :mod:`pykern.pkcli` for how this module is used.
 
@@ -12,7 +12,7 @@ import sys
 
 
 def main():
-    return pkcli.main('ci-play')
+    return pkcli.main('ci_play')
 
 
 if __name__ == '__main__':
