@@ -4,13 +4,7 @@ on: pull_request
 jobs:
   j:
     runs-on: ubuntu-latest
-#    container:
-#      image: radiasoft/python3:alpha
-#      options: --user root
     steps:
       - uses: actions/checkout@v3
       - name: s
-        run: |
-          docker run --rm busybox echo hello
-
-# curl https://radia.run | bash -s ci
+        run: curl https://radia_run | bash -s unit-test
