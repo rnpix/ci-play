@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: s
-        run: curl https://radia_run | bash -s unit-test
+        run: curl https://radia.run | bash -s unit-test
